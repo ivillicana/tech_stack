@@ -6,7 +6,7 @@ import * as actions from '../actions';
 
 export class ListItem extends Component {
   componentDidUpdate() {
-    LayoutAnimation.spring();
+    LayoutAnimation.easeInEaseOut();
   }
 
   renderDescription() {
